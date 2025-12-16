@@ -1,7 +1,6 @@
-export type LoginRequest = {
-  email: string;
-  password: string;
-};
+import type { LoginFormValues } from './login.schema';
+
+export type LoginRequest = LoginFormValues;
 
 export type LoginResponse = {
   accessToken: string;
