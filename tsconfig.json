@@ -8,7 +8,7 @@
     /* Module */
     "module": "ESNext",
     "moduleResolution": "Bundler",
-    /* had to right no emit at last for this */ 
+    /* had to right no emit at last for this */
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
@@ -34,7 +34,8 @@
     "noEmit": true,
 
     /* Paths (added later) */
-    "baseUrl": "."
+    "baseUrl": ".",
+    "types": ["vite/client"]
   },
-  "include": ["src"]
+  "include": ["src", "vite-env.d.ts"]
 }
